@@ -8,7 +8,7 @@ then
 fi
 
 # Cria o nome do diretório
-project_dir="$HOME/$(whoami)/ntp"
+project_dir="$HOME/ntp"
 
 # Cria o diretório se ele não existir
 mkdir -p "$project_dir"
