@@ -10,8 +10,8 @@ ssh_repo="$1"
 # Extrai o nome do projeto do caminho do repositório
 project_name=$(basename "$ssh_repo" .git)
 
-# Remove o prefixo "sd-29-a-" do nome do projeto usando uma expressão regular
-project_name=$(echo "$project_name" | sed 's/sd-29-a-//')
+# Remove o prefixo "sd-00-x-" do nome do projeto usando uma expressão regular
+project_name=$(echo "$project_name" | sed 's/sd-00-x-//')
 
 # Cria o nome da nova branch com base no padrão "nome-do-projeto"
 new_branch_name="seu-nome-${project_name}"
