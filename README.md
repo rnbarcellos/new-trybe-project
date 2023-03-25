@@ -1,6 +1,6 @@
 # ntp - new-trybe-project
 
-Ferramenta Shel Script para inicialização de projetos individuais da Trybe
+Ferramenta Shell Script para inicialização de projetos individuais da Trybe
 
 ## Dependências externas
 
@@ -39,7 +39,7 @@ Além do GitHub CLI, também é necessário configurar a própria ferramenta `nt
 
 1. Faça o clone deste repositório;
 2. Entre na pasta gerada;
-3. Execute o script de configuração _(e siga as instruções)_.
+3. Execute o script de configuração.
 
 Para executar os 3 passos anteriores de forma rápida, basta copiar o comando a seguir:
 ```sh
@@ -48,7 +48,7 @@ cd ~/new-trybe-project && \
 bash setup-ntp.sh
 ```
 
-4. Reinicie o seu terminal fechando-o e abrindo novamente ou executando o seguinte comando
+4. Reinicie o seu terminal fechando-o e abrindo novamente ou executando o seguinte comando:
 
 ```sh
 source ~/.bashrc
@@ -69,7 +69,7 @@ sed -i 's/seu-nome/joao-silva/g;s/\[Seu Nome\]/\[João Silva\]/g' "$HOME/ntp/new
 1. Acesse na sua máquina o diretório dos seus projetos da Trybe. Exemplo:
 
 ```bash
-cd trybe/projetos/sd-00-x-project-zoo-functions
+cd trybe/projetos/
 ```
 
 2. Execute o seguinte comando, substituindo os parâmetros
@@ -108,5 +108,7 @@ Ele executa apenas duas ações:
 1. Adiciona o caminho do script `ntp` ao PATH do arquivo de configuração do Shell;
 
 2. Criar um alias para que possamos executar um comando curto e mais simples.
+
+---
 
 É isso! Faça bom proveito :wink:
