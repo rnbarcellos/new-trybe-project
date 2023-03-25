@@ -28,4 +28,4 @@ fi
 echo "alias ntp='$project_dir/new-trybe-project.sh'" >> "$HOME/.$shell"rc
 
 # Mensagem de sucesso
-echo "Ambiente configurado com sucesso. Execute 'source ~/.${shell}rc' ou abra um novo terminal para carregar as configurações do shell."
+echo "\nAmbiente configurado com sucesso. Execute 'source ~/.${shell}rc' ou abra um novo terminal para carregar as configurações do shell."
