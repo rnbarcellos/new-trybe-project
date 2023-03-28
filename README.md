@@ -61,7 +61,7 @@ source ~/.zshrc
 5. Configure o seu nome e turma no script, por exemplo:
 
 ```sh
-sed -i 's/seu-nome/joao-silva/g;s/\[Seu Nome\]/\[João Silva\]/g;s/sd-00-x-/sd-17-b-/g' "$HOME/ntp/new-trybe-project.sh"
+sed -i 's/seu-nome/joao-silva/g;s/\[Seu Nome\]/\[João Silva\]/g;s/sd-000-x-/sd-017-b-/g' "$HOME/ntp/new-trybe-project.sh"
 ```
 
 ## Como utilizar
