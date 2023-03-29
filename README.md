@@ -82,7 +82,7 @@ O script irá clonar o repositório, acessá-lo, instalar as dependências e abr
 
 ---
 
-## Entendo os scripts
+## Entendendo os scripts
 
 ### Script `ntp`
 
