@@ -10,8 +10,8 @@ ssh_repo="$1"
 # Extrai o nome do projeto do caminho do repositório
 project_name=$(basename "$ssh_repo" .git)
 
-# Remove o prefixo "sd-000-x-" do nome do projeto usando uma expressão regular
-project_name=$(echo "$project_name" | sed 's/sd-000-x-//')
+# Remove o prefixo "sd-000-x-project-" do nome do projeto usando uma expressão regular
+project_name=$(echo "$project_name" | sed 's/sd-000-x-project-//')
 
 # Cria o nome da nova branch com base no padrão "nome-do-projeto"
 new_branch_name="seu-nome-${project_name}"
@@ -24,7 +24,7 @@ pr_title="[Seu Nome] $project_name_title"
 git clone "$ssh_repo"
 
 # Entre no diretório clonado
-cd "sd-000-x-$project_name"
+cd "sd-000-x-project-$project_name"
 
 # Instala as dependências
 npm i
